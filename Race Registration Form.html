@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Race Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Race Registration Form</h1>
+    <form id="registrationForm">
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required>
+      </div>
+      <div class="form-group">
+        <label>Title:</label>
+        <div class="radio-buttons">
+          <label><input type="radio" name="title" value="Mr."> Mr.</label>
+          <label><input type="radio" name="title" value="Ms."> Ms.</label>
+          <label><input type="radio" name="title" value="Mrs."> Mrs.</label>
+          <label><input type="radio" name="title" value="Other"> Other</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Postal Mailing Address:</label>
+        <input type="text" id="address" required>
+      </div>
+      <div class="form-group">
+        <label for="fax">Fax:</label>
+        <input type="tel" id="fax">
+      </div>
+      <div class="form-group">
+        <label for="occupation">Occupation:</label>
+        <input type="text" id="occupation" required>
+      </div>
+      <div class="form-group">
+        <label>Marital Status:</label>
+        <div class="radio-buttons">
+          <label><input type="radio" name="maritalStatus" value="Single"> Single</label>
+          <label><input type="radio" name="maritalStatus" value="Married"> Married</label>
+          <label><input type="radio" name="maritalStatus" value="Divorced"> Divorced</label>
+          <label><input type="radio" name="maritalStatus" value="Widowed"> Widowed</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Select Trip:</label>
+        <div class="radio-buttons">
+          <label><input type="radio" name="trip" value="Stage Race"> Stage Race</label>
+          <label><input type="radio" name="trip" value="Mt. Everest Challenge Marathon (4 day trip)"> Mt. Everest Challenge Marathon (4 day trip)</label>
+          <label><input type="radio" name="trip" value="Mt. Everest Bike Rally"> Mt. Everest Bike Rally</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>T-shirt Size:</label>
+        <div class="radio-buttons">
+          <label><input type="radio" name="tshirtSize" value="Small"> Small</label>
+          <label><input type="radio" name="tshirtSize" value="Medium"> Medium</label>
+          <label><input type="radio" name="tshirtSize" value="Large"> Large</label>
+          <label><input type="radio" name="tshirtSize" value="X-Large"> X-Large</label>
+        </div>
+      </div>
+      
+      
+            <div class="form-group">
+        <label for="RoomSharingPreference">Room Sharing Preference:</label>
+        <select id="RoomSharingPreference">
+          <option value="Single">Single occupancy: I prefer to have my own room</option>
+          <option value="Double">Double occupancy: I am comfortable sharing a room with one other person</option>
+          <option value="Quad">Quad occupancy: I am comfortable sharing a room with three other people</option>
+          <option value="Hexa">Hexa occupancy: I am comfortable sharing a room with five other people</option>
+        </select>
+      </div>
+      
+      
+      
+      <div class="form-group">
+        <label>Are you a smoker? </label>
+        <div class="radio-buttons">
+          <label><input type="radio" name="smoker" value="Yes"> Yes</label>
+          <label><input type="radio" name="smoker" value="No"> No</label>
+          
+          
+          
+          <div class="form-group" style="text-align: center;">
+  <h2>Passport Details</h2>
+</div>
+<div class="form-group">
+  <label for="fullName">Full Name:</label>
+  <input type="text" id="fullName" required>
+  
+  <div class="form-group">
+  <label for="citizenship">Citizenship:</label>
+  <input type="text" id="citizenship" required>
+</div>
+<div class="form-group">
+  <label for="placeOfBirth">Place of Birth:</label>
+  <input type="text" id="placeOfBirth" required>
+</div>
+
+<div class="form-group">
+  <label for="dateOfBirth">Date of Birth:</label>
+  <input type="date" id="dateOfBirth" required>
+</div>
+  
+</div>
+<div class="form-group">
+  <label for="passportNumber">Passport Number:</label>
+  <input type="text" id="passportNumber" required>
+</div>
+<div class="form-group">
+  <label for="passportCountry">Issuing Country:</label>
+  <input type="text" id="passportCountry" required>
+</div>
+<div class="form-group">
+  <label for="passportIssueDate">Issue Date:</label>
+  <input type="date" id="passportIssueDate" required>
+</div>
+<div class="form-group">
+  <label for="passportExpiration">Expiration Date:</label>
+  <input type="date" id="passportExpiration" required>
+</div>
+
+
+<div class="emergency-contact"  style="text-align: center;">
+        <h2>Emergency Contact</h2>
+        </div>
+         <div class="form-group">
+          <label for="emergencyContactName">Full Name:</label>
+          <input type="text" id="emergencyContactName" required>
+        </div>
+        <div class="form-group">
+          <label for="emergencyContactPhone">Phone number :</label>
+          <input type="tel" id="emergencyContactPhone" required>
+        </div>
+       
+        <div class="form-group">
+          <label for="emergencyContactEmail">Email:</label>
+          <input type="email" id="emergencyContactEmail" required>
+        </div>
+        
+      </div>   
+      
+      
+      <div class="form-group">
+  <label for="bookingConditionsLink">See Booking Conditions for all the trips:</label>
+  <a href="#" id="bookingConditionsLink">Booking Conditions</a>
+</div>
+
+<div class="form-group">
+  <label>
+    <input type="checkbox" id="agreeTerms" required>
+    I agree to all booking terms and conditions
+  </label>
+</div>
+
+          
+        </div>
+      </div>
+      <button type="button" id="submitButton">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
